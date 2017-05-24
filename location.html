@@ -1,0 +1,101 @@
+<html>
+<head>
+  <title>Cuevas Quesadillas | Location</title>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico"/>
+</head>
+
+<body>
+  <div id="bunch">
+<div id="logo">
+  <a href="/"><span><img src="picture/logo.png" alt="entertainment" style="width:25%; height:;"></span></a>
+</div>
+
+<div id="title">
+  <h1>Cuevas Quesadillas</h1>
+</div>
+
+<div id="title1">
+  <p>Quality Mexican-Fusion Food</p>
+</div>
+
+</div>
+
+<div id="navigation">
+  <ul>
+  <li><a href="/">Home</a></li>
+  <li><a href="/about">About</a></li>
+  <li><a href="/menu">Menu</a></li>
+  <li><a href="/location">Location</a></li>
+  <li><a href="/contact">Contact</a></li>
+</ul>
+</div>
+
+
+<div id="maptitle">
+  <h1><center>LOCATION</center></h1>
+</div>
+
+
+<div id="location">
+
+<style>
+      #map {
+        height: 40vw;
+        width: 50%;
+       }
+    </style>
+    <div id="map"></div>
+
+  <script>
+      function initMap() {
+        var uluru = {lat: 37.823756, lng: -121.290261};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 15,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDf6OiT4-4XPA9zPnSc3Vq47wmBpUYCQTw&callback=initMap">
+    </script>
+</div>
+
+<div id="place">
+  <img src="picture/place.jpg" alt="place" style="width:40vw;height:25vw;">
+</div>
+
+
+<div id="maptext">
+  <p><b><u>Cuevas Quesadillas</u></b></p>
+  <p>15040 S Harlan Rd.</p>
+  <p>Lathrop, CA 95330</p>
+  <p>(702)150-4095</p>
+</div>
+
+<div id="storehr">
+  <h1><center><b>Restaurant Hours</b></center></h1>
+  <p><center>Open Monday to Saturday</center></p>
+  <p><center>Monday-Wednesday 10am-9pm</center></p>
+  <p><center>Thursday-Friday 10am-10pm</center></p>
+  <p><center>Saturday 9am-10pm</center></p>
+</div>
+
+
+<div id="footer">
+   <div id="copyright">
+   <center>Copyright &copy; 2017 Cuevas Quesadillas. All rights reserved.</center>
+ </div>
+
+ <div id="nav1">
+   <li><a class="selected" href="https://www.facebook.com/jeffreyysy" target="_blank"><img src="picture/facebook.jpg" alt="facebook" style="width:1.6vw;height:1.6vw;"></a></li>
+   <li><a class="selected" href="https://www.instagram.com/cuevasquesadillas/" target="_blank"><img src="picture/instagram.png" alt="instagram" style="width:1.6vw;height:1.6vw;"></a></li>
+   <li><a class="selected" href="https://www.snapchat.com/add/jeffreyysy" target="_blank"><img src="picture/Snapchat.png" alt="snapchat" style="width:1.6vw;height:1.6vw;"></a></li>
+ </div>
+ </div>
+
+</body>

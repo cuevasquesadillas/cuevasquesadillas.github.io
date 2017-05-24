@@ -1,0 +1,129 @@
+body {
+  background-color: #EED9B9;
+}
+
+
+#title {
+  margin: -17vw 0 0 21vw;
+  position: relative;
+  font-size: 1.5vw;
+  font-family: 'Indie Flower', cursive;
+}
+
+#title1 {
+  margin: -2.5vh 0 0 21vw;
+  position: relative;
+  font-size: 1.5vw;
+  font-family: 'Indie Flower', cursive;
+  font-style: italic;
+}
+
+#logo {
+  margin: -3vh 0 0 -3vw;
+  position: relative;
+}
+
+li {
+  display: inline;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+color: black;
+}
+
+#navigation {
+  margin: -7vw 0 0 55vw;
+  position: relative;
+  font-size: 1.6vw;
+  word-spacing: 2.5vw;
+  color: black;
+  font-family: 'Indie Flower', cursive;
+
+}
+#slideshow {
+  margin: 12vw 0 0 0;
+  position: relative;
+}
+
+#description {
+  margin: 0vw 5vw 0 5vw;
+  position: relative;
+  font-size: 1.5vw;
+  font-family: 'Indie Flower', cursive;
+
+}
+
+#copyright {
+  font-size: 0.7vw;
+  position: relative;
+  margin: 20vw 0 0 0;
+  color: black;
+  text-align: center;
+
+}
+
+#nav1 {
+  position: relative;
+  margin: -1.5vw 1vw 0 0;
+  float: right;
+  word-spacing: 1vw;
+}
+
+
+
+
+/*menu*/
+#menu {
+  margin: 0 0 0 0;
+  position: relative;
+}
+
+#menutitle {
+  margin: 10vw 0 0 0;
+  position: relative;
+  font-family: 'Indie Flower', cursive;
+  font-size: 2vw;
+}
+
+
+
+/*location*/
+
+#maptitle {
+  margin: 9vw 0 0 0;
+  position: relative;
+  font-family: 'Indie Flower', cursive;
+  font-size: 2vw;
+
+}
+
+#map {
+  margin: 3vw 0 0 2vw;
+  position: relative;
+}
+
+#maptext {
+  margin: 4vw 0 0 66vw;
+  line-height: 5%;
+  font-size: 2vw;
+  font-family: 'Indie Flower', cursive;
+  position: relative;
+
+}
+
+#place {
+  margin: -38vw 0 0 55vw;
+  position: relative;
+}
+
+#storehr {
+  margin: 15vw 0 0 0;
+  position: relative;
+  font-family: 'Indie Flower', cursive;
+  font-size: 2vw;
+
+}

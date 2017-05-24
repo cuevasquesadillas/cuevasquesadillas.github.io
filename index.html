@@ -1,0 +1,83 @@
+<html>
+<head>
+  <title>Cuevas Quesadillas</title>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico"/>
+</head>
+
+<body>
+  <div id="bunch">
+<div id="logo">
+  <a href="/"><span><img src="picture/logo.png" alt="entertainment" style="width:25%; height:;"></span></a>
+</div>
+
+<div id="title">
+  <h1>Cuevas Quesadillas</h1>
+</div>
+
+<div id="title1">
+  <p>Quality Mexican-Fusion Food</p>
+</div>
+
+</div>
+
+<div id="navigation">
+  <ul>
+  <li><a href="/">Home</a></li>
+  <li><a href="/">About</a></li>
+  <li><a href="/menu">Menu</a></li>
+  <li><a href="/location">Location</a></li>
+  <li><a href="/contact">Contact</a></li>
+</ul>
+</div>
+
+<div id="slideshow">
+  <img class="show" src="picture/one.jpeg" style="width:98.25vw; height:48vw">
+  <img class="show" src="picture/three.jpg" style="width:98.25vw; height:48vw">
+  <img class="show" src="picture/four.jpg" style="width:98.25vw; height:48vw">
+  <img class="show" src="picture/five.jpg" style="width:98.25vw; height:48vw">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("show");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 4500);
+}
+</script>
+
+<div id="text">
+
+<div id="description">
+  <h1><center>Mission</center></h1>
+  <p><center>Our mission is to bring ethnic diversity to authentic Mexican food.
+    We want to bring a higher quality fast food restaurant to customers
+    by using the freshest ingredients and most authentic cooking techniques.
+    Our goal is to give our customers the opportunity to taste all ethnic groups'
+    food in one restaurant, and to view Mexican food in a different light without
+    losing the Mexican heritage. We want to expand our franchise into a multinational
+    corporation to reach people from all around the world.</center></p>
+</div>
+
+<div id="footer">
+   <div id="copyright">
+   <center>Copyright &copy; 2017 Cuevas Quesadillas. All rights reserved.</center>
+ </div>
+
+ <div id="nav1">
+   <li><a class="selected" href="https://www.facebook.com/jeffreyysy" target="_blank"><img src="picture/facebook.jpg" alt="facebook" style="width:1.6vw;height:1.6vw;"></a></li>
+   <li><a class="selected" href="https://www.instagram.com/cuevasquesadillas/" target="_blank"><img src="picture/instagram.png" alt="instagram" style="width:1.6vw;height:1.6vw;"></a></li>
+   <li><a class="selected" href="https://www.snapchat.com/add/jeffreyysy" target="_blank"><img src="picture/Snapchat.png" alt="snapchat" style="width:1.6vw;height:1.6vw;"></a></li>
+ </div>
+ </div>
+
+</body>
