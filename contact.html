@@ -31,42 +31,44 @@
 </ul>
 </div>
 
-<div id="slideshow">
-  <img class="show" src="picture/one.jpeg" style="width:98.25vw; height:48vw">
-  <img class="show" src="picture/three.jpg" style="width:98.25vw; height:48vw">
-  <img class="show" src="picture/four.jpg" style="width:98.25vw; height:48vw">
-  <img class="show" src="picture/five.jpg" style="width:98.25vw; height:48vw">
+
+<div id="contacttitle">
+  <h1><center>Contact Cuevas</center></h1>
 </div>
 
-<script>
-var myIndex = 0;
-carousel();
 
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("show");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";
-    }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}
-    x[myIndex-1].style.display = "block";
-    setTimeout(carousel, 4500);
-}
-</script>
+<div id="content">
 
-<div id="text">
+  <div id="form-wrap">
+    <form action="//formspree.io/contact@jeffreyyyeung.com" method="post">
+      <fieldset>
+        <h4>Cuevas Quesadillas</h4>
+        <label class="labelone" for="name">*First and Last Name: </label>
+        <input  name="name"/ type="text" placeholder=" Tomas Durai" required="required">
+        <label for="email">*Email: </label>
+        <input  name="email"/ type="text" placeholder=" example@domain.com" required="required">
+        <label for="email">*Subject: </label>
+        <input  name="email"/ type="text" placeholder=" My Quesadilla Order" required="required">
+        <label for="comments">*Comments: </label>
+        <textarea name="comments" placeholder=" Hey Tomas, let's go get some quesadillas!! ^_^" required="required"></textarea>
+        <p>*Required Fields</p>
+        <input type="hidden" name="_next" value="/thanks" />
 
-<div id="description">
-  <h1><center>Mission</center></h1>
-  <p><center>Our mission is to bring ethnic diversity to authentic Mexican food.
-    We want to bring a higher quality fast food restaurant to customers
-    by using the freshest ingredients and most authentic cooking techniques.
-    Our goal is to give our customers the opportunity to taste all ethnic groups'
-    food in one restaurant, and to view Mexican food in a different light without
-    losing the Mexican heritage. We want to expand our franchise into a multinational
-    corporation to reach people from all around the world.</center></p>
+      </fieldset>
+
+      <fieldset>
+        <input class="btn" type="submit" value="send"/>
+        <input class="btn" type="reset" value="reset form"/>
+      </fieldset>
+
+    </form>
+
+  </div>
+
 </div>
+
+
+
 
 <div id="footer">
    <div id="copyright">
