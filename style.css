@@ -42,9 +42,9 @@ color: black;
 }
 
 #navigation {
-  margin: -13vw 0 0 55vw;
+  margin: -13vw 0 0 54vw;
   position: absolute;
-  font-size: 1.6vw;
+  font-size: 1.3vw;
   word-spacing: 2.5vw;
   color: black;
   font-family: 'Indie Flower', cursive;
@@ -180,7 +180,6 @@ label {
   display: block;
   margin: 30px 0 5px 20px;
   font-family: 'Niconne', cursive;
-  <link href='https://fonts.googleapis.com/css?family=Niconne' rel='stylesheet' type='text/css'>
   color: #888;
 }
 
@@ -208,7 +207,6 @@ fieldset {
 .btn {
   width: 125px;
   font-family: 'Yesteryear', cursive;
-  <link href='https://fonts.googleapis.com/css?family=Yesteryear' rel='stylesheet' type='text/css'>
 }
 
 form h4 {
@@ -216,7 +214,6 @@ form h4 {
   font-size: 25px;
   color: #518A10;
   font-weight: bold;
-  font-family: 'Romanesco', cursive;<link href='https://fonts.googleapis.com/css?family=Romanesco' rel='stylesheet' type='text/css'>
 }
 
 form p {
@@ -230,4 +227,59 @@ form p {
   position: relative;
   font-family: 'Indie Flower', cursive;
   font-size: 2vw;
+}
+
+/*rating*/
+
+#ratingtitle {
+  margin: 0 0 0 0;
+  position: relative;
+  font-family: 'Indie Flower', cursive;
+  font-size: 2vw;
+}
+
+#caption1 {
+  margin: 0 0 0 20vw;
+  position: relative;
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.5vw;
+}
+
+#caption2 {
+  margin: -6vw 0 0 65vw;
+  position: relative;
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.5vw;
+}
+
+#cappic1 {
+  margin: 3vw 0 0 13vw;
+  position: relative;
+}
+
+#cappic2 {
+  margin: -8vw 0 0 64.5vw;
+  position: relative;
+}
+
+#ratingtitle1 {
+  margin: 10vw 0 0 0;
+  position: relative;
+  font-family: 'Indie Flower', cursive;
+  font-size: 2vw;
+}
+
+#videoone {
+  margin: 5vw 0 0 0;
+  position: relative;
+}
+
+#videotwo {
+  margin: 10vw 0 0 0;
+  position: relative;
+}
+
+#videothree {
+  margin: 10vw 0 0 0;
+  position: relative;
 }
